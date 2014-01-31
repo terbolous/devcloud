@@ -1,3 +1,4 @@
-output-virtualbox-iso/
 nohup.out
-../../devcloud.box
+packer_cache/
+packer_virtualbox-iso_virtualbox.box
+.vagrant/

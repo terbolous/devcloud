@@ -1,0 +1,6 @@
+# this folder is required for the packer build
+
+# ignore everything
+*
+# except this file
+!.gitignore
