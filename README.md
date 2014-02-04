@@ -12,9 +12,10 @@ Check out this project, either using git or download as a zip file:
 
 To build the Vagrant box, make sure [packer](http://www.packer.io/) is installed and on your path, then cd into the new folder and run:
 
-```packer build -force -var "headless=true" template.json```
+ - ```packer build -force template.json``` for build with vagrant gui
+ - ```packer build -force -var "headless=true" template.json``` for headless build
 
-If you have bash installed, you can use the script ```packer_build.sh``` to save some typing.
+If you have bash installed, you can use the script ```packer_build_gui.sh``` or ``packer_build_nogui.sh``` to save some typing.
 
 If packer finishes successfully, you should have:
 
